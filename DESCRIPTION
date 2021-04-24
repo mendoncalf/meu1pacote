@@ -1,0 +1,25 @@
+Package: meu1pacote
+Title: Meu Teste De Pacote
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "L",
+           family = "M",
+           role = c("aut", "cre"),
+           email = "teste@example.com")
+Description: Aprendendo a fazer um pacote.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    magrittr,
+    purrr,
+    readr,
+    stringr,
+    tibble,
+    tidyr,
+    xml2
+Depends: 
+    R (>= 2.10)
