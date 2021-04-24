@@ -15,8 +15,8 @@ devtools::load_all()
 devtools::check()
 
 # 4 - use GIT
-# usethis:use_git()
-# usethis:use_github()
+# usethis::use_git()
+# usethis::use_github()
 
 
 #5 Criando caixa de areia
@@ -60,7 +60,18 @@ usethis::use_pipe() # especial para usar o pipe
 # devtools:install - library(meu1pacote)
 
 
-# 7 Repita os checks -> commit -> push
+# 8 Repita os checks -> commit -> push
+
+
+# 9 TESTES
+# usethis::use_testthat() - cria a pasta
+# 1 arquivo de teste para cada arquvio de funções
+# usethis::use_test()
+# roda detools::check()
+
+
+
+
 
 
 
